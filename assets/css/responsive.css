@@ -1,0 +1,37 @@
+@media (max-width: 767px) {
+    .sidebar_header {
+        padding: 10px 0px;
+        flex-direction: row-reverse;
+    }}
+
+/* --------------------------------------------------------------------Hero-Section-------------------------------------------------------------------------------------------------------------- */
+@media screen and (max-width: 767px) {
+    .hero-title  {
+        font-size: 2.5rem;
+        margin-top: 0px;
+    }
+    .hero-subtitle{
+        line-height: 26px;
+               font-size: 1.0rem;
+    }
+}
+@media (min-width: 1920px) {
+    .breadcrumbs__inner {
+        padding: 15px 80px;
+    }
+}
+@media (min-width: 768px) {
+    .col-md-offset-2 {
+        margin-left: 16.66666667%;
+    }
+}
+
+@media (min-width: 1280px) {
+    .custom_slider {
+            padding-right: 17rem;
+        padding-left: 3rem;
+    }
+}
+
+
+

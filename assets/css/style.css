@@ -1,0 +1,475 @@
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+img {
+    width: 100%;
+    border: 0;
+}
+
+body {
+   font-family: 'PlayfairBold';
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0 !important;
+}
+
+    a{
+        text-decoration: none;
+    }
+p {
+    font-family: 'PlayfairBold', serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+section{
+    display: block;
+}
+
+
+/* 2. This applies the font to your Luxury Gold headings */
+h1, h2, h3, .luxury-heading {
+   
+    color: #D4AF37; /* Metallic Gold */
+    letter-spacing: 1px; /* Makes it look more high-end */
+}
+/* 
+----------------------------------------------------------------------------------------Header Section------------------------------------------------------------------------------------------- */
+/* header{
+        position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    -webkit-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+    border: none;
+}
+
+.top_header{
+        height: 138px;
+
+
+}
+
+.navigation__menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    padding: 30px 0 25px;
+}
+
+.navigation__menu-item {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+
+.navigation__menu-item a {
+font-size: 16px;
+font-weight: 400;
+letter-spacing: 2px;
+color: #ffffff;
+} */
+
+/* Header Background Effect */
+.header-transparent {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%);
+    transition: background 0.4s ease-in-out;
+}
+
+    .brand-logo img{
+        height: 90px;
+        
+    }
+
+
+.bottom_nav{
+    padding: 0px 60px ; 
+}
+.header_menu{
+max-width: 1440px;
+margin: 0 auto !important;
+display: flex;
+padding: 30px 0 25px;
+}
+.header_menu li:after
+
+ {
+    background: rgba(255, 255, 255, .3);
+    content: "";
+    height: 12px;
+    margin: 0 auto;
+    width: 1px;
+}
+
+.custom-bars {
+       width: 42px;
+    height: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.custom-bars span {
+    display: block;
+    height: 1px; /* This makes it look 'thin' */
+    width: 100%;
+    background-color: #000000; /* Black for bg-white header */
+    transition: all 0.3s ease-in-out;
+}
+.toggle_header{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.offcanvas-header .btn-close{
+    font-size: 12px;
+    color: #000000;
+}
+.social_media{
+    padding: 1rem;
+}
+/* Luxury Touch: Make the middle bar slightly shorter */
+.custom-bars span:nth-child(2) {
+    width: 70%;
+}
+/* Styling the sidebar links */
+.sidebar-nav li a {
+    transition: 0.3s;
+    font-family: 'Playfair Display', serif;
+    display: block;
+}
+
+.sidebar-nav li a:hover {
+    color: #D4AF37 !important; /* Gold on hover */
+    padding-left: 10px; /* Subtle slide effect */
+}
+
+/* Make the offcanvas width smaller for desktop luxury feel */
+@media (min-width: 992px) {
+    .offcanvas {
+        width: 350px !important;
+    }
+}
+/* Hover Effect: Turn them Gold and expand the middle bar */
+.menu-trigger:hover .custom-bars span {
+    background-color: #D4AF37;
+    width: 100%;
+}
+/* If Ashu adds a scroll listener, use this class */
+.header-scrolled {
+    background: #1A1A1A !important;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* Nav Links Styling */
+.nav-link-custom {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+       font-size: 0.9rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    position: relative;
+    transition: 0.3s;
+}
+
+.nav-link-custom:hover {
+    color: #D4AF37; /* Luxury Gold */
+}
+
+/* Gold Underline Animation */
+.nav-link-custom::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1px;
+    bottom: -5px;
+    left: 0;
+    background-color: #D4AF37;
+    transition: width 0.3s;
+}
+
+.nav-link-custom:hover::after {
+    width: 100%;
+}
+
+.tracking-widest {
+    letter-spacing: 1px;
+}
+
+/* Hero Section Container */
+.hero-section {
+
+    background: linear-gradient(rgba(26, 26, 26, 0.6), rgba(26, 26, 26, 0.6)), 
+                url('../images/hero-section.jpg'); 
+
+
+
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Gold Typography */
+.gold-text {
+    color: #D4AF37;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.hero-title {
+    font-family: 'PlayfairBlack', serif; /* Linked to your .ttf file */
+    font-size: 5rem;
+    color: #D4AF37;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+
+.hero-subtitle {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1.3rem;
+}
+
+/* Luxury Gold Button */
+.btn-gold {
+    background-color: #D4AF37;
+    border-color: #D4AF37;
+    color: #1A1A1A;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+
+.btn-gold:hover {
+    background-color: #B8860B;
+    color: #ffffff;
+}
+
+.breadcrumbs__inner {
+    padding: 15px 24px;
+}
+.features-location {
+    background-color: #1A1A1A;
+}
+
+.luxury-title {
+    font-family: 'PlayfairBlack', serif;
+    color: #D4AF37;
+    letter-spacing: 2px;
+    font-size: 1.8rem;
+}
+
+/* The Gold Icon Boxes */
+.feature-box {
+    border: 1px solid #D4AF37;
+    padding: 20px 10px;
+    text-align: center;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.feature-box i {
+    color: #D4AF37;
+    font-size: 2rem;
+    
+}
+
+.feature-box p {
+    color: #D4AF37;
+    font-size: 0.7rem;
+    margin-top: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.feature-box:hover {
+    background-color: rgba(212, 175, 55, 0.1);
+}
+
+.map-wrapper {
+    border: 1px solid #D4AF37;
+    padding: 5px;
+}
+.breadcrumb_list{
+ 
+    font-weight: 400;
+    font-style: normal;
+    color: #6c7073;
+    list-style: none;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.breadcrumb_list a{
+  padding: 0;
+    color: #6c7073;
+    font-size: 16px;
+    letter-spacing: .21em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+  .breadcrumb_list .fa-angle-double-right{
+    font-size: 10px;
+  }
+
+.custom_slider{
+    padding-right: 6rem;
+    padding-left: 3rem;
+    margin: 45px 0;
+}
+
+  /* Styling the Slick Dots to be Gold */
+.slick-dots li button:before {
+    color: #D4AF37 !important;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #D4AF37 !important;
+}
+
+.custom-border-gold {
+    border: 2px solid #D4AF37;
+    padding: 10px;
+    background: #1a1a1a;
+}
+/* Container for the buttons (Relative to the col-6) */
+.hotel-slider {
+    position: relative;
+}
+
+/* Base style for both arrows */
+.slick-custom-prev, .slick-custom-next {
+    position: absolute;
+    right: 50px; /* Adjust this based on your padding */
+    z-index: 99;
+    background: transparent;
+    border: 0px solid #D4AF37;
+    color: #D4AF37;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+/* Top Button (Up) */
+.slick-custom-prev {
+    top: 40%;
+}
+
+/* Bottom Button (Down) */
+.slick-custom-next {
+    top: calc(40% + 45px); /* Places it exactly below the first one */
+}
+
+/* Hover effect: Gold background with black icon */
+/* .slick-custom-prev:hover, .slick-custom-next:hover {
+    background-color: #D4AF37;
+    color: #000;
+} */
+
+/* Remove default slick buttons if they appear */
+.slick-prev, .slick-next {
+    display: none !important;
+}
+
+.footer-section {
+    background-color: #1A1A1A; /* Dark charcoal */
+}
+
+.border-top-gold {
+    border-top: 2px solid #D4AF37;
+}
+
+.gold-divider {
+    border-top: 1px solid rgba(212, 175, 55, 0.2);
+    margin: 0;
+}
+
+/* Navigation Links */
+.footer-nav li a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+
+.footer-logo img{
+    width: 100px;
+}
+.footer-nav li a:hover {
+    color: #D4AF37;
+}
+
+/* Social Icons */
+.gold-text {
+    color: #D4AF37;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+
+.gold-text:hover {
+    color: #ffffff;
+    transform: translateY(-3px);
+    display: inline-block;
+}
+
+.text-gold{
+        color: #D4AF37;
+    font-size: 1.2rem;
+}
+
+/* ----------------------------------------------------Call to Action-------------------------------------------------------------------------------------------------- */
+.call-section {
+
+    background: linear-gradient(rgba(26, 26, 26, 0.6), rgba(26, 26, 26, 0.6)), 
+                url('../images/call_to_actions.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Parallax effect like luxury sites */
+    padding: 80px 0px;
+}
+
+.banner_new_sections{
+     width: 100%;
+    height: 500px;
+    background-image: url(../images/8f31.jpeg);
+    text-align: center;
+    background-size: cover;
+
+
+}
+.banner_new_sections h2{
+    color: #fff;
+    font-size: 60px;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
