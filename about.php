@@ -51,13 +51,34 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <h6 class="gold-text text-uppercase tracking-widest">Our Story</h6>
-                    <h2 class="display-5 font-serif mb-4">A Haven of Luxury in the Heart of Kangra</h2>
+                    <h2 class="fw-bold text-dark mb-4">A Haven of Luxury in the Heart of Kangra</h2>
                     <p class="text-muted">Located in the picturesque valley of Suja, The Billing Inn offers a unique blend of traditional warmth and contemporary luxury...</p>
                     <p class="text-muted">With 16 meticulously designed rooms, we ensure that every guest experiences the majesty of the Himalayas from the comfort of their suite.</p>
                 </div>
-                <div class="col-lg-6">
-                    <div class="about-image-stack position-relative">
-                        <img src="assets/images/hotel-exterior.jpg" class="img-fluid rounded shadow-lg" alt="Hotel Exterior">
+                <div class="col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="f-services d-md-flex flex-md-column-reverse">
+                                <div class="img w-100"><img src="assets/images/hotel_staff/chef.jpg"></div>
+                                <div class="text w-100 p-4 text-center mb-md-4">
+                                    <div class="icon"><span class="flaticon-pillow"></span></div>
+                                    <h3>Cozy Room</h3>
+                                    <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="f-services">
+                                <div class="img w-100 mb-md-4">
+                                    <img src="assets/images/hotel_staff/chef.jpg">
+                                </div>
+                                <div class="text w-100 p-4 text-center">
+                                    <div class="icon"><span class="flaticon-special"></span></div>
+                                    <h3>Special Offers</h3>
+                                    <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -73,7 +94,7 @@
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="staff-card text-center shadow rounded ">
                         <div class="position-relative">
-                            <img src="assets/images/hotel_staff/general_manager.png" class="img-fluid mb-3">
+                            <img src="assets/images/hotel_staff/chef.jpg" class="img-fluid mb-3">
                         </div>
                         <div class="staff-detail mt-2 py-2">
                             <h5 class="mb-1">Mr. Vikram Singh</h5>
@@ -82,7 +103,7 @@
 
                     </div>
                 </div>
-                 <div class="col-lg-3 col-md-6 mb-4">
+                <div class="col-lg-3 col-md-6 mb-4">
                     <div class="staff-card text-center shadow rounded ">
                         <div class="position-relative">
                             <img src="assets/images/hotel_staff/front_office.jpg" class="img-fluid mb-3">
@@ -94,7 +115,7 @@
 
                     </div>
                 </div>
-                 <div class="col-lg-3 col-md-6 mb-4">
+                <div class="col-lg-3 col-md-6 mb-4">
                     <div class="staff-card text-center shadow rounded ">
                         <div class="position-relative">
                             <img src="assets/images/hotel_staff/chef.jpg" class="img-fluid mb-3">
@@ -106,7 +127,7 @@
 
                     </div>
                 </div>
-                 <div class="col-lg-3 col-md-6 mb-4">
+                <div class="col-lg-3 col-md-6 mb-4">
                     <div class="staff-card text-center shadow rounded ">
                         <div class="position-relative">
                             <img src="assets/images/hotel_staff/housekeeping.jpg" class="img-fluid mb-3">
@@ -122,6 +143,119 @@
         </div>
     </section>
 
+    <section class="testinoimal py-5">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-8 text-center col-md-offset-2 mb-5">
+                    <div class="contact_description">
+                        <h6 class="text-uppercase gold-text mb-2 tracking-widest">Our Testinoimal</h6>
+                        <h1 class="fw-bold text-dark mb-4">Our Guest Review</h1>
+
+
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="row guest-slider gx-4 ">
+                <div class="col-lg-4">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-4">
+
+
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0">
+                                    <img src="assets/images/testinomial/profile.png"
+                                        alt="Roger Scott"
+                                        class="rounded-circle"
+                                        style="width: 60px; height: 60px; object-fit: cover;">
+                                </div>
+                                <div class="ps-3">
+                                    <h6 class="mb-0 fw-bold">Arjun Srivastav</h6>
+                                    <small class="text-gold">Visiter</small>
+                                </div>
+                            </div>
+                            <p class="text-muted mt-4 italic">
+                                "The Billing Inn is truly a haven of luxury. The view of the Kangra valley from my room was breathtaking."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-4">
+
+
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0">
+                                    <img src="assets/images/testinomial/profile.png"
+                                        alt="Roger Scott"
+                                        class="rounded-circle"
+                                        style="width: 60px; height: 60px; object-fit: cover;">
+                                </div>
+                                <div class="ps-3">
+                                    <h6 class="mb-0 fw-bold">Arjun Srivastav</h6>
+                                    <small class="text-gold">Visiter</small>
+                                </div>
+                            </div>
+                            <p class="text-muted mt-4 italic">
+                                "The Billing Inn is truly a haven of luxury. The view of the Kangra valley from my room was breathtaking."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-4">
+
+
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0">
+                                    <img src="assets/images/testinomial/profile.png"
+                                        alt="Roger Scott"
+                                        class="rounded-circle"
+                                        style="width: 60px; height: 60px; object-fit: cover;">
+                                </div>
+                                <div class="ps-3">
+                                    <h6 class="mb-0 fw-bold">Arjun Srivastav</h6>
+                                    <small class="text-gold">Visiter</small>
+                                </div>
+                            </div>
+                            <p class="text-muted mt-4 italic">
+                                "The Billing Inn is truly a haven of luxury. The view of the Kangra valley from my room was breathtaking."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-4">
+
+
+                            <div class="d-flex align-items-center">
+                                <div class="flex-shrink-0">
+                                    <img src="assets/images/testinomial/profile.png"
+                                        alt="Roger Scott"
+                                        class="rounded-circle"
+                                        style="width: 60px; height: 60px; object-fit: cover;">
+                                </div>
+                                <div class="ps-3">
+                                    <h6 class="mb-0 fw-bold">Arjun Srivastav</h6>
+                                    <small class="text-gold">Visiter</small>
+                                </div>
+                            </div>
+                            <p class="text-muted mt-4 italic">
+                                "The Billing Inn is truly a haven of luxury. The view of the Kangra valley from my room was breathtaking."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        </div>
+    </section>
 
 
     <?php include 'include/footer.php'; ?>

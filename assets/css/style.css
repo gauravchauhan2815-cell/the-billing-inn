@@ -4,14 +4,13 @@
     padding: 0;
 
 }
-
 img {
     width: 100%;
     border: 0;
 }
 
 body {
-   font-family: 'PlayfairBold';
+  font-family: 'PlayfairBold', serif;
 }
 
 ul {
@@ -19,76 +18,31 @@ ul {
     padding-left: 0;
     margin: 0 !important;
 }
-
-    a{
-        text-decoration: none;
-    }
+a{
+       text-decoration: none;
+}
 p {
     font-family: 'PlayfairBold', serif;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 17px;
 }
 section{
     display: block;
 }
 
-
-/* 2. This applies the font to your Luxury Gold headings */
-h1, h2, h3, .luxury-heading {
+h1, 
+h2,
+ h3, 
+.luxury-heading {
    
-    color: #D4AF37; /* Metallic Gold */
-    letter-spacing: 1px; /* Makes it look more high-end */
+    color: #D4AF37; 
+    letter-spacing: 1px; 
 }
 /* 
 ----------------------------------------------------------------------------------------Header Section------------------------------------------------------------------------------------------- */
-/* header{
-        position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    z-index: 99;
-    -webkit-transition: all 0.4s ease-out;
-    transition: all 0.4s ease-out;
-    border: none;
-}
-
-.top_header{
-        height: 138px;
 
 
-}
 
-.navigation__menu {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin: 0 auto;
-    padding: 30px 0 25px;
-}
-
-.navigation__menu-item {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto;
-}
-
-.navigation__menu-item a {
-font-size: 16px;
-font-weight: 400;
-letter-spacing: 2px;
-color: #ffffff;
-} */
-
-/* Header Background Effect */
 .header-transparent {
     background: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%);
     transition: background 0.4s ease-in-out;
@@ -130,9 +84,9 @@ padding: 30px 0 25px;
 
 .custom-bars span {
     display: block;
-    height: 1px; /* This makes it look 'thin' */
+    height: 1px; 
     width: 100%;
-    background-color: #000000; /* Black for bg-white header */
+    background-color: #000000; 
     transition: all 0.3s ease-in-out;
 }
 .toggle_header{
@@ -145,11 +99,11 @@ padding: 30px 0 25px;
 .social_media{
     padding: 1rem;
 }
-/* Luxury Touch: Make the middle bar slightly shorter */
+
 .custom-bars span:nth-child(2) {
     width: 70%;
 }
-/* Styling the sidebar links */
+
 .sidebar-nav li a {
     transition: 0.3s;
     font-family: 'Playfair Display', serif;
@@ -157,28 +111,28 @@ padding: 30px 0 25px;
 }
 
 .sidebar-nav li a:hover {
-    color: #D4AF37 !important; /* Gold on hover */
-    padding-left: 10px; /* Subtle slide effect */
+    color: #D4AF37 !important; 
+    padding-left: 10px; 
 }
 
-/* Make the offcanvas width smaller for desktop luxury feel */
+
 @media (min-width: 992px) {
     .offcanvas {
         width: 350px !important;
     }
 }
-/* Hover Effect: Turn them Gold and expand the middle bar */
+
 .menu-trigger:hover .custom-bars span {
     background-color: #D4AF37;
     width: 100%;
 }
-/* If Ashu adds a scroll listener, use this class */
+
 .header-scrolled {
     background: #1A1A1A !important;
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
 
-/* Nav Links Styling */
+
 .nav-link-custom {
     color: #ffffff;
     text-decoration: none;
@@ -191,10 +145,10 @@ padding: 30px 0 25px;
 }
 
 .nav-link-custom:hover {
-    color: #D4AF37; /* Luxury Gold */
+    color: #D4AF37; 
 }
 
-/* Gold Underline Animation */
+
 .nav-link-custom::after {
     content: '';
     position: absolute;
@@ -214,7 +168,7 @@ padding: 30px 0 25px;
     letter-spacing: 1px;
 }
 
-/* Hero Section Container */
+
 .hero-section {
 
     background: linear-gradient(rgba(26, 26, 26, 0.6), rgba(26, 26, 26, 0.6)), 
@@ -228,7 +182,7 @@ padding: 30px 0 25px;
     background-repeat: no-repeat;
 }
 
-/* Gold Typography */
+
 .gold-text {
     color: #D4AF37;
     font-weight: 600;
@@ -236,7 +190,7 @@ padding: 30px 0 25px;
 }
 
 .hero-title {
-    font-family: 'PlayfairBlack', serif; /* Linked to your .ttf file */
+    font-family: 'PlayfairBlack', serif; 
     font-size: 5rem;
     color: #D4AF37;
     text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
@@ -249,7 +203,7 @@ padding: 30px 0 25px;
     font-size: 1.3rem;
 }
 
-/* Luxury Gold Button */
+
 .btn-gold {
     background-color: #D4AF37;
     border-color: #D4AF37;
@@ -279,7 +233,7 @@ padding: 30px 0 25px;
     font-size: 1.8rem;
 }
 
-/* The Gold Icon Boxes */
+
 .feature-box {
     border: 1px solid #D4AF37;
     padding: 20px 10px;
@@ -342,7 +296,7 @@ padding: 30px 0 25px;
     margin: 45px 0;
 }
 
-  /* Styling the Slick Dots to be Gold */
+
 .slick-dots li button:before {
     color: #D4AF37 !important;
 }
@@ -356,15 +310,15 @@ padding: 30px 0 25px;
     padding: 10px;
     background: #1a1a1a;
 }
-/* Container for the buttons (Relative to the col-6) */
+
 .hotel-slider {
     position: relative;
 }
 
-/* Base style for both arrows */
+
 .slick-custom-prev, .slick-custom-next {
     position: absolute;
-    right: 50px; /* Adjust this based on your padding */
+    right: 50px;
     z-index: 99;
     background: transparent;
     border: 0px solid #D4AF37;
@@ -377,29 +331,23 @@ padding: 30px 0 25px;
     transition: 0.3s;
 }
 
-/* Top Button (Up) */
+
 .slick-custom-prev {
     top: 40%;
 }
 
-/* Bottom Button (Down) */
+
 .slick-custom-next {
-    top: calc(40% + 45px); /* Places it exactly below the first one */
+    top: calc(40% + 45px); 
 }
 
-/* Hover effect: Gold background with black icon */
-/* .slick-custom-prev:hover, .slick-custom-next:hover {
-    background-color: #D4AF37;
-    color: #000;
-} */
 
-/* Remove default slick buttons if they appear */
 .slick-prev, .slick-next {
     display: none !important;
 }
 
 .footer-section {
-    background-color: #1A1A1A; /* Dark charcoal */
+    background-color: #1A1A1A; 
 }
 
 .border-top-gold {
@@ -411,7 +359,7 @@ padding: 30px 0 25px;
     margin: 0;
 }
 
-/* Navigation Links */
+
 .footer-nav li a {
     color: #ffffff;
     text-decoration: none;
@@ -428,18 +376,12 @@ padding: 30px 0 25px;
     color: #D4AF37;
 }
 
-/* Social Icons */
 .gold-text {
     color: #D4AF37;
     font-size: 1.2rem;
     transition: 0.3s;
 }
 
-.gold-text:hover {
-    color: #ffffff;
-    transform: translateY(-3px);
-    display: inline-block;
-}
 
 .text-gold{
         color: #D4AF37;
@@ -453,7 +395,7 @@ padding: 30px 0 25px;
                 url('../images/call_to_actions.jpg'); 
     background-size: cover;
     background-position: center;
-    background-attachment: fixed; /* Parallax effect like luxury sites */
+    background-attachment: fixed; 
     padding: 80px 0px;
 }
 
@@ -472,4 +414,101 @@ padding: 30px 0 25px;
     font-family: "Playfair Display", serif;
     margin-bottom: 0px;
     font-weight: bold;
+}
+
+/* ----------------------------------------------------------------contactPage---------------------------------------------------------------------------------------------------------------------- */
+.form-contact .form-control {
+    border: 1px solid #e5e6e9;
+    border-radius: 0px;
+    height: 48px;
+    padding-left: 18px;
+    font-size: 1.0rem;
+    background: transparent;
+}
+.form-contact textarea {
+    border-radius: 0px;
+    height: 100% !important;
+}
+ .f-services {
+    width: 100%;
+    padding: 0;
+}
+.f-services .img
+
+ {
+    height: 230px;
+}
+ .f-services:hover .text {
+    background: #222222;
+    -webkit-box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.18);
+    -moz-box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.18);
+    box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.18);
+}
+ .f-services .text {
+    background: #fff;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    -webkit-box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.06);
+    -moz-box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 5px 25px -2px rgba(0, 0, 0, 0.06);
+}
+.testinoimal .card{
+    margin: 0 7px;
+}
+
+#imageModal .modal-content {
+    background-color: rgba(0, 0, 0, 0.8) !important; 
+}
+
+#modalImg {
+    max-height: 90vh; 
+    border: 5px solid white;
+}
+
+.modal .close {
+
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+    border: 0;
+  
+    padding: 0;
+    margin: 0;
+
+
+    font-weight: 400;
+    font-style: normal;
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: .1em;
+    line-height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    position: absolute;
+    right:20px;
+    text-transform: uppercase;
+    top: -26px;
+    z-index: 1;
+   
+}
+.modal .close span{
+  padding-right: 15px;
+  color: white
+}
+.carousel-inner img{
+    aspect-ratio: 16/9;
+}
+.gall_overlay{
+    background: rgba(0, 0, 0, 0.6); 
+    transition: all 0.4s ease-in-out;
+}
+.mb-16{
+margin-bottom: 16px;
+}
+.accom_card span i {
+    margin-right: 12px;
 }

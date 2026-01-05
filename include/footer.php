@@ -9,10 +9,10 @@
 
             <div class="col-lg-6 mb-4 mb-lg-0">
                 <ul class="footer-nav d-flex justify-content-center flex-wrap list-unstyled mb-0">
-                    <li class="px-2 sm-px-3"><a href="#about">About</a></li>
-                    <li class="px-2 sm-px-3"><a href="#rooms">Accommodations</a></li>
-                    <li class="px-2 sm-px-3"><a href="#gallery">Gallery</a></li>
-                    <li class="px-2 sm-px-3"><a href="#contact">Contact</a></li>
+                    <li class="px-2 sm-px-3"><a href="about.php">About</a></li>
+                    <li class="px-2 sm-px-3"><a href="accomodations.php">Accommodations</a></li>
+                    <li class="px-2 sm-px-3"><a href="gallery.php">Gallery</a></li>
+                    <li class="px-2 sm-px-3"><a href="contact.php">Contact</a></li>
                 </ul>
             </div>
 
